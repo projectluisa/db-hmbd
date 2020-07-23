@@ -3,12 +3,12 @@
 ## Introduction 
 **HMBD** is a database with three tables: metal 1, metal 2, and metal 3. 
 
-It is accessable from the front-end at: http://db-hmbd.herokuapp.com/home
+It is accessable at: http://database-hmbd.herokuapp.com/static/index.html
 
 ## Documentation
 Please see the Wiki for the following: 
-* [Database Diagram](https://github.com/projectluisa/project-luisa/wiki/Database-Diagram) | Database Schema and Diagram
-* [Project Luisa Website](https://github.com/projectluisa/project-luisa/wiki/Project-Luisa-Website) | Video Tutorial Navigating the Website
+* [Database Diagram](https://github.com/projectluisa/database-hmbd/wiki/Database-Diagram) | Database Schema and Diagram
+* [Project Luisa Website](https://github.com/projectluisa/database-hmbd/wiki/Project-Luisa-Website) | Video Tutorial Navigating the Website
 
 ## Local Installation
 You can deploy the front-end on your local computer by the following steps: 
@@ -17,7 +17,6 @@ You can deploy the front-end on your local computer by the following steps:
 3. heroku config --app db-hmbd
 4. Copy the value of DATABASE_URL returned on the command line inside the "" in the file "config.py" 
 5. Save the file "config.py"
-6. 
 
 ## Built With
 * HTML, JavaScript, Python, AngularJS, NodeJS
